@@ -18,6 +18,10 @@ However, not every word is meaningful. So the second step is that we would want 
 
 The third step is to give a weight indicating the importance of the word. For the meaningful words, the word appears too often would still be less important, such as 'about', 'for'. They would have a smaller weight. But in the low-frequent words, the word appears more times would be relatively important (indicate some features). We would simply apply 'TfidfTransformer' package to help us assign all the weightage.
 
+<div align="center">
+        <img src="https://github.com/nji3/Natural_Language_Processing_Intro-/blob/master/Movie%20Genres/readme_img/genre_corr.png" width="400px"</img> 
+</div>
+
 ## Statistics Model Training
 
 ### Multinomial Naive Bayes
